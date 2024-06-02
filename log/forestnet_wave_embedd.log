@@ -1,0 +1,242 @@
+6464 1982
+Epoch: 0
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 0, lr: 0.000200, Train Loss: 4.857115, Train Acc: 0.014682, Test Loss: 5.734254, Test Acc: 0.020683
+Epoch: 1
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 1, lr: 0.000400, Train Loss: 2.055447, Train Acc: 0.354618, Test Loss: 1.942869, Test Acc: 0.392776
+Epoch: 2
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 2, lr: 0.000600, Train Loss: 1.954561, Train Acc: 0.396729, Test Loss: 2.016947, Test Acc: 0.343144
+Epoch: 3
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 3, lr: 0.000800, Train Loss: 1.918001, Train Acc: 0.406729, Test Loss: 1.973825, Test Acc: 0.379120
+Epoch: 4
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 4, lr: 0.001000, Train Loss: 1.868616, Train Acc: 0.435389, Test Loss: 1.803380, Test Acc: 0.455344
+Epoch: 5
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 5, lr: 0.000985, Train Loss: 1.852482, Train Acc: 0.442899, Test Loss: 1.841628, Test Acc: 0.454853
+Epoch: 6
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 6, lr: 0.000969, Train Loss: 1.798878, Train Acc: 0.463887, Test Loss: 1.793770, Test Acc: 0.470372
+Epoch: 7
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 7, lr: 0.000954, Train Loss: 1.759848, Train Acc: 0.480756, Test Loss: 1.799777, Test Acc: 0.446161
+Epoch: 8
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 8, lr: 0.000938, Train Loss: 1.753800, Train Acc: 0.489594, Test Loss: 1.789086, Test Acc: 0.471945
+Epoch: 9
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 9, lr: 0.000923, Train Loss: 1.734510, Train Acc: 0.499749, Test Loss: 1.799066, Test Acc: 0.474463
+Epoch: 10
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 10, lr: 0.000908, Train Loss: 1.718605, Train Acc: 0.499057, Test Loss: 1.813478, Test Acc: 0.491055
+Epoch: 11
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 11, lr: 0.000892, Train Loss: 1.706511, Train Acc: 0.512571, Test Loss: 1.739514, Test Acc: 0.498174
+Epoch: 12
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 12, lr: 0.000877, Train Loss: 1.696891, Train Acc: 0.516113, Test Loss: 1.886791, Test Acc: 0.468271
+Epoch: 13
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 13, lr: 0.000862, Train Loss: 1.688292, Train Acc: 0.513406, Test Loss: 1.758779, Test Acc: 0.495073
+Epoch: 14
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 14, lr: 0.000846, Train Loss: 1.680437, Train Acc: 0.521781, Test Loss: 1.724887, Test Acc: 0.508656
+Epoch: 15
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 15, lr: 0.000831, Train Loss: 1.675670, Train Acc: 0.518507, Test Loss: 1.772249, Test Acc: 0.491055
+Epoch: 16
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 16, lr: 0.000815, Train Loss: 1.669614, Train Acc: 0.522323, Test Loss: 1.718772, Test Acc: 0.517610
+Epoch: 17
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 17, lr: 0.000800, Train Loss: 1.660387, Train Acc: 0.520650, Test Loss: 1.757839, Test Acc: 0.497092
+Epoch: 18
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 18, lr: 0.000785, Train Loss: 1.651974, Train Acc: 0.530411, Test Loss: 1.720602, Test Acc: 0.509647
+Epoch: 19
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 19, lr: 0.000769, Train Loss: 1.648970, Train Acc: 0.522384, Test Loss: 1.737415, Test Acc: 0.497147
+Epoch: 20
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 20, lr: 0.000754, Train Loss: 1.640367, Train Acc: 0.534781, Test Loss: 1.723873, Test Acc: 0.510119
+Epoch: 21
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 21, lr: 0.000738, Train Loss: 1.641821, Train Acc: 0.533539, Test Loss: 1.732220, Test Acc: 0.501500
+Epoch: 22
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 22, lr: 0.000723, Train Loss: 1.633916, Train Acc: 0.536190, Test Loss: 1.773012, Test Acc: 0.491954
+Epoch: 23
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 23, lr: 0.000708, Train Loss: 1.635393, Train Acc: 0.534793, Test Loss: 1.755549, Test Acc: 0.495064
+Epoch: 24
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 24, lr: 0.000692, Train Loss: 1.630055, Train Acc: 0.535793, Test Loss: 1.740050, Test Acc: 0.501083
+Epoch: 25
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 25, lr: 0.000677, Train Loss: 1.622361, Train Acc: 0.543379, Test Loss: 1.745070, Test Acc: 0.509692
+Epoch: 26
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 26, lr: 0.000662, Train Loss: 1.622298, Train Acc: 0.545180, Test Loss: 1.754974, Test Acc: 0.495055
+Epoch: 27
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 27, lr: 0.000646, Train Loss: 1.612221, Train Acc: 0.538739, Test Loss: 1.705437, Test Acc: 0.509174
+Epoch: 28
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 28, lr: 0.000631, Train Loss: 1.610925, Train Acc: 0.548062, Test Loss: 1.763262, Test Acc: 0.500055
+Epoch: 29
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 29, lr: 0.000615, Train Loss: 1.608212, Train Acc: 0.548443, Test Loss: 1.809475, Test Acc: 0.494936
+Epoch: 30
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 30, lr: 0.000600, Train Loss: 1.601733, Train Acc: 0.551313, Test Loss: 1.735620, Test Acc: 0.499482
+Epoch: 31
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 31, lr: 0.000585, Train Loss: 1.601328, Train Acc: 0.550980, Test Loss: 1.744607, Test Acc: 0.500665
+Epoch: 32
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 32, lr: 0.000569, Train Loss: 1.597234, Train Acc: 0.554466, Test Loss: 1.814945, Test Acc: 0.492973
+Epoch: 33
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 33, lr: 0.000554, Train Loss: 1.598428, Train Acc: 0.550443, Test Loss: 1.719030, Test Acc: 0.527711
+Epoch: 34
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 34, lr: 0.000538, Train Loss: 1.592744, Train Acc: 0.555631, Test Loss: 1.719105, Test Acc: 0.522848
+Epoch: 35
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 35, lr: 0.000523, Train Loss: 1.586489, Train Acc: 0.548448, Test Loss: 1.789556, Test Acc: 0.508601
+Epoch: 36
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 36, lr: 0.000508, Train Loss: 1.584156, Train Acc: 0.559259, Test Loss: 1.724610, Test Acc: 0.515647
+Epoch: 37
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 37, lr: 0.000492, Train Loss: 1.581766, Train Acc: 0.559798, Test Loss: 1.735391, Test Acc: 0.519802
+Epoch: 38
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 38, lr: 0.000477, Train Loss: 1.581181, Train Acc: 0.553926, Test Loss: 1.775069, Test Acc: 0.504592
+Epoch: 39
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 39, lr: 0.000462, Train Loss: 1.569088, Train Acc: 0.563488, Test Loss: 1.787265, Test Acc: 0.491908
+Epoch: 40
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 40, lr: 0.000446, Train Loss: 1.579003, Train Acc: 0.556148, Test Loss: 1.800801, Test Acc: 0.501564
+Epoch: 41
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 41, lr: 0.000431, Train Loss: 1.559288, Train Acc: 0.572690, Test Loss: 1.720814, Test Acc: 0.519692
+Epoch: 42
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 42, lr: 0.000415, Train Loss: 1.561497, Train Acc: 0.566131, Test Loss: 1.723008, Test Acc: 0.529339
+Epoch: 43
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 43, lr: 0.000400, Train Loss: 1.557160, Train Acc: 0.563170, Test Loss: 1.767170, Test Acc: 0.510601
+Epoch: 44
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 44, lr: 0.000385, Train Loss: 1.550467, Train Acc: 0.569633, Test Loss: 1.761534, Test Acc: 0.523174
+Epoch: 45
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 45, lr: 0.000369, Train Loss: 1.551880, Train Acc: 0.568259, Test Loss: 1.755415, Test Acc: 0.505555
+Epoch: 46
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 46, lr: 0.000354, Train Loss: 1.543838, Train Acc: 0.577998, Test Loss: 1.761753, Test Acc: 0.524284
+Epoch: 47
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 47, lr: 0.000338, Train Loss: 1.544185, Train Acc: 0.569434, Test Loss: 1.741451, Test Acc: 0.509665
+Epoch: 48
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 48, lr: 0.000323, Train Loss: 1.539588, Train Acc: 0.576502, Test Loss: 1.701715, Test Acc: 0.535403
+Epoch: 49
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 49, lr: 0.000308, Train Loss: 1.529440, Train Acc: 0.577195, Test Loss: 1.726854, Test Acc: 0.502601
+Epoch: 50
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 50, lr: 0.000292, Train Loss: 1.529101, Train Acc: 0.580094, Test Loss: 1.758407, Test Acc: 0.504528
+Epoch: 51
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 51, lr: 0.000277, Train Loss: 1.531794, Train Acc: 0.577392, Test Loss: 1.707054, Test Acc: 0.518683
+Epoch: 52
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 52, lr: 0.000262, Train Loss: 1.521717, Train Acc: 0.585931, Test Loss: 1.739787, Test Acc: 0.521775
+Epoch: 53
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 53, lr: 0.000246, Train Loss: 1.510930, Train Acc: 0.585217, Test Loss: 1.745207, Test Acc: 0.522238
+Epoch: 54
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 54, lr: 0.000231, Train Loss: 1.508902, Train Acc: 0.593616, Test Loss: 1.789165, Test Acc: 0.520174
+Epoch: 55
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 55, lr: 0.000215, Train Loss: 1.510205, Train Acc: 0.589163, Test Loss: 1.743701, Test Acc: 0.507220
+Epoch: 56
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 56, lr: 0.000200, Train Loss: 1.509697, Train Acc: 0.584995, Test Loss: 1.718069, Test Acc: 0.521192
+Epoch: 57
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 57, lr: 0.000185, Train Loss: 1.498276, Train Acc: 0.591842, Test Loss: 1.724180, Test Acc: 0.520073
+Epoch: 58
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 58, lr: 0.000169, Train Loss: 1.496260, Train Acc: 0.590776, Test Loss: 1.763054, Test Acc: 0.519192
+Epoch: 59
+torch.Size([1, 12])
+torch.Size([1])
+Epoch: 59, lr: 0.000154, Train Loss: 1.487228, Train Acc: 0.599892, Test Loss: 1.725978, Test Acc: 0.528229
+Best Acc: 0.535403

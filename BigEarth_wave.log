@@ -1,0 +1,35 @@
+/home/zongzhex/miniconda3/envs/new/lib/python3.9/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 3, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+device: cuda
+[0.443, 0.49, 0.56, 0.665, 0.705, 0.74, 0.783, 0.842, 0.865, 0.945, 1.61, 2.19]
+Files already downloaded and verified
+train 311667
+val 103944
+training subset: 31166
+x: torch.Size([1, 12, 120, 120])
+y: torch.Size([1, 19])
+src feat shape torch.Size([2000, 128])
+embedder optimizer AttrDict({'lr': 0.003, 'betas': [0.9, 0.98], 'weight_decay': 0.001, 'momentum': 0.9})
+Params to learn: 	model.swin.embeddings.dash.conv1.weight	model.swin.embeddings.dash.bn1.weight	model.swin.embeddings.dash.bn1.bias	model.swin.embeddings.dash.layer1.0.conv1.weight	model.swin.embeddings.dash.layer1.0.bn1.weight	model.swin.embeddings.dash.layer1.0.bn1.bias	model.swin.embeddings.dash.layer1.0.conv2.weight	model.swin.embeddings.dash.layer1.0.bn2.weight	model.swin.embeddings.dash.layer1.0.bn2.bias	model.swin.embeddings.dash.layer1.1.conv1.weight	model.swin.embeddings.dash.layer1.1.bn1.weight	model.swin.embeddings.dash.layer1.1.bn1.bias	model.swin.embeddings.dash.layer1.1.conv2.weight	model.swin.embeddings.dash.layer1.1.bn2.weight	model.swin.embeddings.dash.layer1.1.bn2.bias	model.swin.embeddings.dash.layer2.0.conv1.weight	model.swin.embeddings.dash.layer2.0.bn1.weight	model.swin.embeddings.dash.layer2.0.bn1.bias	model.swin.embeddings.dash.layer2.0.conv2.weight	model.swin.embeddings.dash.layer2.0.bn2.weight	model.swin.embeddings.dash.layer2.0.bn2.bias	model.swin.embeddings.dash.layer2.1.conv1.weight	model.swin.embeddings.dash.layer2.1.bn1.weight	model.swin.embeddings.dash.layer2.1.bn1.bias	model.swin.embeddings.dash.layer2.1.conv2.weight	model.swin.embeddings.dash.layer2.1.bn2.weight	model.swin.embeddings.dash.layer2.1.bn2.bias	model.swin.embeddings.dash.layer3.0.conv1.weight	model.swin.embeddings.dash.layer3.0.bn1.weight	model.swin.embeddings.dash.layer3.0.bn1.bias	model.swin.embeddings.dash.layer3.0.conv2.weight	model.swin.embeddings.dash.layer3.0.bn2.weight	model.swin.embeddings.dash.layer3.0.bn2.bias	model.swin.embeddings.dash.layer3.1.conv1.weight	model.swin.embeddings.dash.layer3.1.bn1.weight	model.swin.embeddings.dash.layer3.1.bn1.bias	model.swin.embeddings.dash.layer3.1.conv2.weight	model.swin.embeddings.dash.layer3.1.bn2.weight	model.swin.embeddings.dash.layer3.1.bn2.bias	model.swin.embeddings.dash.linear.weight	model.swin.embeddings.dash.linear.bias	model.swin.embeddings.fusion.weight	model.swin.embeddings.fusion.bias	model.swin.embeddings.conv.weight	model.swin.embeddings.conv.bias	model.swin.embeddings.final.0.weight	model.swin.embeddings.final.0.bias	model.swin.embeddings.norm1.weight	model.swin.embeddings.norm1.bias	model.swin.embeddings.norm2.weight	model.swin.embeddings.norm2.bias	predictor.weight	predictor.bias
+[train embedder 0 0.003000 ] time elapsed: 733.6322 	total loss: 8348.6018 	MMD loss: 4902.2902 	CE loss: 8348.6018
+torch.Size([31166, 19, 1, 1]) torch.Size([31166, 19])
+Traceback (most recent call last):
+  File "/home/zongzhex/wave/./main.py", line 349, in <module>
+    main(False, args)
+  File "/home/zongzhex/wave/./main.py", line 44, in main
+    model, embedder_stats = get_tgt_model(args, root, sample_shape, num_classes, loss, wavelen, False, use_determined, context)
+  File "/home/zongzhex/wave/embedder.py", line 378, in get_tgt_model
+    train_score = metric(feats, ys)
+  File "/home/zongzhex/wave/task_configs.py", line 54, in __call__
+    return 1 - self.score_func(output, target)
+  File "/home/zongzhex/wave/task_configs.py", line 75, in mean_average_precision
+    score = average_precision_score(target.cpu(), torch.sigmoid(preds).detach().cpu(), average='micro') * 100.0
+  File "/home/zongzhex/miniconda3/envs/new/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zongzhex/miniconda3/envs/new/lib/python3.9/site-packages/sklearn/metrics/_ranking.py", line 267, in average_precision_score
+    return _average_binary_score(
+  File "/home/zongzhex/miniconda3/envs/new/lib/python3.9/site-packages/sklearn/metrics/_base.py", line 79, in _average_binary_score
+    y_score = check_array(y_score)
+  File "/home/zongzhex/miniconda3/envs/new/lib/python3.9/site-packages/sklearn/utils/validation.py", line 953, in check_array
+    raise ValueError(
+ValueError: Found array with dim 4. None expected <= 2.
